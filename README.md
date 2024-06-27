@@ -1,6 +1,6 @@
 ## Live Data Web Scrapper
 
-developed a web scraper that able to collect live transaction data from the `https://www.primeopinion.com/` site.
+developed a web scraper that can collect live transaction data from the `https://www.primeopinion.com/` site.
 It helps to track the live payout feed at the top of the page, outlined in the image below in orange.
 
 ![alt text](feed.png "Feed")
@@ -16,11 +16,11 @@ For each payout appearing in the feed, I stored the following information:
 "PayPal", 10.0, "US", "2024-06-11T15:52:30.127535+00:00"
 ```
 
-The stored in a local file (.csv) in the format described above.
+The data is stored in a local file (.csv) in the format described above.
 
-## tools Used
+## Tools Used
 
 [selenium web driver](https://www.selenium.dev/documentation/webdriver/getting_started/), there are implementations for 
-python, java and other languages that are quite convenient to use, although I use python since that is what 
-I am currently working on. <br>
+Python, java and other languages that are quite convenient to use, although I use Python since that is what 
+I am currently working on it. <br>
 
